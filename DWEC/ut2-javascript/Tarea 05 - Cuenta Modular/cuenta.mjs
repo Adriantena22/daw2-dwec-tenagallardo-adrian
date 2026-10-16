@@ -20,13 +20,6 @@ export default class Cuenta {
         this._cantidad = nuevaCantidad;
     }
 
-    getCantidad() {
-        return this._cantidad;
-    }
-
-    setCantidad(nuevaCantidad) {
-        this._cantidad = nuevaCantidad;
-    }
 
     toString() {
         return `Cuenta [titular: ${this.titular}, Saldo: ${this.cantidad}€]`;
